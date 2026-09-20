@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <title>nemoforge</title>
+    <meta name="description" content="Developer projects, contact information and support links from nemoforge." />
+    <link rel="canonical" href="https://nemoforge.github.io/" />
+    <meta name="theme-color" content="#0E60E2" />
+
+    <!-- Icons / manifest -->
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-shgrZSRf.svg" />
+    <link rel="apple-touch-icon" href="/assets/favicon-shgrZSRf.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="nemoforge" />
+    <meta property="og:title" content="nemoforge" />
+    <meta property="og:description" content="Developer projects, contact information and support links from nemoforge." />
+    <meta property="og:url" content="https://nemoforge.github.io/" />
+    <meta property="og:image" content="https://nemoforge.github.io/social/og.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="nemoforge — Building tools for Android, automation, and open-source software." />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="nemoforge" />
+    <meta name="twitter:description" content="Developer projects, contact information and support links from nemoforge." />
+    <meta name="twitter:image" content="https://nemoforge.github.io/social/og.webp" />
+
+    <!-- Prevent flash of incorrect theme -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('nf-theme') || 'system';
+          var m = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var dark = t === 'dark' || (t === 'system' && m);
+          document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-C7wXsjf3.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CMuEb4xe.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
