@@ -1,0 +1,12 @@
+{
+  "name": "nemoforge",
+  "short_name": "nemoforge",
+  "description": "Developer projects, contact information and support links from nemoforge.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0C11",
+  "theme_color": "#0E60E2",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
