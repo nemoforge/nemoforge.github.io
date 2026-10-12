@@ -1,0 +1,1 @@
+import{t as e}from"./consoleApi-Cs6ImCoJ.js";function t(t){return e(`admin-users`,{action:`list`,...t})}function n(t){return e(`admin-users`,{action:`get`,user_id:t})}function r(t){return e(`admin-users`,t)}export{t as n,r,n as t};
